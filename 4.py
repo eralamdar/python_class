@@ -1,13 +1,5 @@
-aa=0
-bb=1
-
-while bb :
-    dastoor=input("bala,paeen,ya baseh ?\n")
-    if dastoor=="bala":
-        aa+=1
-        print(f"{aa}\n")
-    if dastoor=="paeen":
-        aa-=1
-        print(f"{aa}\n")
-    if dastoor=="baseh":
-        break
+e=["amin","mehrana","meydam","mahnaz","reza","paniz","farokh","mobina","morteza"]
+ee=8
+while ee >=0 :
+    print (f"{e[ee]}")
+    ee-=1
